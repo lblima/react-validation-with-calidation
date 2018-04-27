@@ -23,6 +23,48 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  font-family: sans-serif;
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid #666;
+  border-radius: 3px;
+  padding: 5px 10px;
+  display: block;
+  width: 100%;
+}
+
+.error {
+  color: darkred;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
 }
